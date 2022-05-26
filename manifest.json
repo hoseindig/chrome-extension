@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "my test 02",
+    "description": "",
+    "version": "1.0",
+    "icons": {
+        "16": "images/36.png",
+        "32": "images/36.png",
+        "48": "images/48.png"
+    },
+    "background": {
+        "scripts": [
+            "./background.js"
+        ]
+    },
+    "options_page": "./option.html",
+    "browser_action": {
+        "default_popup": "option.html"
+    },
+    "permissions": [
+        "tabs",
+        "https://www.iranjib.ir/*",
+        "https://www.digikala.com/*",
+        "storage"
+    ]
+}
